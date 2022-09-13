@@ -11,7 +11,8 @@ const SearchContainer = () => {
   const dispatch = useDispatch();
 
   const handleSearch = (e) => {
-    // is loading check later
+    // only once I get the last response, only then I'll change the state
+    if (isLoading) return;
     dispatch(handleChange({ name: e.target.name, value: e.target.value }));
   };
 
