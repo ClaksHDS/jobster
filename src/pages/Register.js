@@ -49,6 +49,7 @@ const Register = () => {
         navigate("/");
       }, 2000);
     }
+    // eslint-disable-next-line
   }, [user]);
 
   return (

@@ -1,6 +1,4 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
-import { useTransition } from "react";
-import { FaAssistiveListeningSystems } from "react-icons/fa";
 import { toast } from "react-toastify";
 
 import {
